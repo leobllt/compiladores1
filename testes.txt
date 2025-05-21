@@ -1,0 +1,69 @@
+1 // a seguir estao os testes que devem passar:
+
+1 + 2 * 3    // expressoes
+
+
+x = 10       // uso de variaveis
+y = x + 5
+y / 3
+
+
+sqrt(32/2)   // funcoes pre-definidas
+exp(2)
+log(10)
+
+
+let soma(a, b) = a + b;  // funcao do usuario - simples
+soma(2, 3)
+
+
+let quadrado(n) = x = n*n;  x;  // funcao do usuario - mais comandos
+quadrado(5)
+
+
+1  and 1         // operadores logicos
+0 and 1
+1 or 0
+1 > 2 or 4 < 2
+
+
+if 1 < 2 then print(10);  // comando if - 1 condicao
+
+
+if 10>2 and 4<3 then print(20);   // comando if - 2 condicoes
+
+
+if x > 5 then y=1; else y=2;   // comando if/else
+
+
+a=0                 // laco while
+while a<5 do a=a+1; print(a);
+
+
+for(i = 0; i < 10; i = i + 1) print(i);   // laco for
+
+
+
+2 // a seguir estao os testes que devem falhar
+
+x = 1;  // ponto e virgula
+
+1 +
+
+(1 + 2
+
+sqrt 10
+
+if x > 1 y = 2
+
+while x>2 x = x + 1
+
+for(i=0; i<5) print(i);
+
+let div(a b) = a/b;
+
+div(1,2)
+
+1 AND
+
+if 1 then x=1  // ponto e virgula
